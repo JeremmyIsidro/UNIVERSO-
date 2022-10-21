@@ -1,0 +1,110 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/gradient-galaxy-background_52683-64650.jpg?w=900&t=st=1665004581~exp=1665005181~hmac=268b928579d3e076bbb7adc9b58abf4bb34ae0619a3232a71d1ee8016af232e1");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed; /*Scroll -> el texto se movera contigo; Fixed -> imagene estatica*/
+    margin: 0;
+}
+
+header {
+    color: rgb(140, 0, 255); 
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(212, 0, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+}
+
+#logo{
+    display: flex;
+    text-align: center;
+}
+
+.logo-img{
+height: 100px;
+margin: 0px 0px 0px 0px;
+float:none;
+display: inline-block;
+}
+
+#titulo{
+margin-left: 0px;
+display:inline-block
+}
+
+nav {
+word-spacing: 50px;
+margin: 0px 10px 0px 10px;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgb(212, 0, 255);
+    color: rgb(140, 0, 255); 
+}
+
+h4 {
+    color: white;
+    text-decoration: underline;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px gray;
+    font-size: 25px;
+    margin: 30px 10px;
+
+}
+
+p { 
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    word-spacing: 4px;
+    line-height: 30px;
+    margin: 10px;
+}
+
+img {
+    float: right;
+    margin: 0 50px 0 50px
+}
+
+#imgven {
+    margin: 30px 50px 30px 50px
+}
+
+#imgmar {
+    margin: 60px 50px 60px 50px
+}
+
+#imgjup {
+    margin: 140px 50px 140px 50px
+}
+
+#imgsat {
+    margin: 130px 0px 130px 0px
+}
+
+#imgura {
+    margin: 50px 50px 50px 50px
+}
+
+#imgnep {
+    margin: 0px 50px 0px 50px
+}
+
+footer {
+    background-image: radial-gradient(circle at 50% 67.38%, #ff4eda 0, #f146e3 16.67%, #d640eb 33.33%, #b53cf2 50%, #8b3df9 66.67%, #4b41ff 83.33%, #0046ff 100%);
+    height: 20%;    
+    text-align: center;
+    padding: 20px 0px; 
+
+}
+
+#pfoot {
+    text-align: center;
+}
+
+#face, #inst, #twi, #whats, #link, #dis{
+    color: #38343c
+}
