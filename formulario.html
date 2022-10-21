@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/formulario.css">
+    <script defer src="./image/friconix (1).js"> </script>
+    <title>CONCURSO DE LA NASA </title>
+</head>
+<body>
+        <header>
+            <div id="logo">
+                <img src="./image/nasa.png" alt="logo de la nasa" class="logo-img">
+                <h1 id="titulo">CONCURSO DE LA NASA</h1>
+            </div>
+            <nav>
+                <a href="./index.html" class="nav-link">UNIVERSO</a>
+                <a href="./Estrellas.html" class="nav-link">ESTRELLAS</a>
+                <a href="./Sistema Solar.html" class="nav-link">SISTEMASOLAR</a>
+                <a href="./formulario.html">CONCURSO</a>
+            </nav>
+        </header>
+        
+        <p id="descripcion">PARA PARTICIPAR TIENES QUE LLENAR TUS DATOS Y TE ENVIAREMOS SI CALIFICAS PARA SER EL GANADOR</p>
+
+    <main>
+        <form action="">
+            <h3>RELLENA EL FORMULARIO CON TUS DATOS PERSONALES:</h3>
+            <p> 
+                NOMBRE <input type="text" size="40" placeholder="Escriba su nombre en mayúscula">
+            </p><br><br>
+
+            <p id="sex"> SEXO   <input type="radio" name="sexo" value="1" required> Hombre
+                        <input type="radio" name="sexo" value="2"> Mujer           
+                        <input type="radio" name="sexo" value="3"> Prefiero no decirlo  </p> <br>
+
+            <p id="a"> DNI
+                        <input type="text" name="" id="dni" maxlength="8" minlength="5" placeholder="Ingrese su DNI">
+            </p> <br>
+
+            <p id="contra">
+                CONTRASEÑA <input type="password" name="pass" ninleght="5" placeholder="Ingrese su contraseña"> 
+            </p> <br>
+
+            <p id="">
+                PESO <input type="number" name="" id="peso" step="any" min="20"  max="200"placeholder="Seleccione su peso">
+            </p> <br>
+
+            <p id="lalo">
+                FECHA DE NACIMIENTO <input type="date" name="fecha" id="nacimiento">
+            </p> <br>
+
+            <p>
+                ELIGUE TU COLOR FAVORITO
+                <input type="color"> </p> <br>
+
+            <p>
+                ¿QUÉ TAN ÁGIL ERES? <input type="range" name="" id="" min="1" max="11" step="2" list="lista-rango"> 
+            </p> <br><br>
+
+            <p id="">DESCRIBETE LO MEJOR POSIBLE <br>
+                <textarea name="texto" id="" cols="30" rows="10"></textarea>
+            </p> <br><br>
+
+            <p id="">¿QUÉ CARRERA PROFESIONAL EJERCÉS?<br>
+                <textarea name="texto" id="" cols="30" rows="10"></textarea>
+            </p> <br><br>
+
+            <p id="">¿POR QUÉ DEBEMOS ELEGIRTE?<br>
+                <textarea name="texto" id="" cols="30" rows="10"></textarea>
+            </p> <br>
+
+            <p> <button type="submit">
+                    <img src="./image/send.png" alt="" width="50" height="50"> ENVIAR
+                    </button>
+                <button type="reset">
+                <img src="./image/remove.png" alt="" width="50" height="50"> BORRAR </button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p id="pfoot">Pagina creada por Jeremmy Isidro <br><br>
+        Derechos reservados <br><br>
+        Número de contacto: +51 941552800</p>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fi-snsuxl-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fi-xnsuxl-instagram"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fi-xnsuxl-twitter-solid"></i></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><i class="fi-xnsuxl-whatsapp"></i></a>
+        <a href="https://linkedin.com/" target="_blank"><i class="fi-xnsuxl-linkedin"></i></a>
+        <a href="https://discord.com/" target="_blank"><i class="fi-xnsuxl-discord-alt"></i></a>
+    </footer>
+    
+
+</body>
+</html>
